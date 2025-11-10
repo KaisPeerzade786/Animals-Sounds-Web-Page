@@ -1,0 +1,189 @@
+body {
+    text-align: center;
+    background-color: #A8F1E6;
+    animation: fadein 0.8s;;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+h1 {
+    font-size: 4rem;
+    color: #FF7A00;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 red;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-12px);
+    }
+}
+
+footer {
+    color: #1D3557;
+    font-family: 'Fredoka', sans-serif;
+    ;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.animal,
+.bird {
+    border: 10px solid black;
+    font-size: 3rem;
+    /* Reduced so it fits at bottom */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    color: #6A0DAD;
+    text-shadow: 3px 0 white;
+    border-radius: 15px;
+    display: inline-block;
+    width: 200px; /* auto fits 3-4 per row now */
+    height: 200px;
+    margin: 0;
+
+    /* Important new lines */
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    animation: glow 3s infinite;
+
+
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1400px;
+    margin: auto;
+}
+@keyframes glow {
+    0% {
+        border-color: #ff4d6d;
+    }
+
+    50% {
+        border-color: #7b2ff7;
+    }
+
+    100% {
+        border-color: #ff4d6d;
+    }
+}
+
+/* The label text inside the block */
+.animal p,
+.bird p {
+    position: absolute;
+    bottom: 0;
+    /* Moves to bottom */
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(255, 255, 255, 0.5);
+    /* Slight background for readability */
+    font-size: 3rem;
+}
+
+.animal:hover,
+.bird:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 25px gold;
+    transition: 0.3s;
+}
+
+.lion {
+    background-image: url(./images/lion.jpg);
+}
+
+.tiger {
+    background-image: url(./images/Tiger.jpg);
+}
+
+.leopard {
+    background-image: url(./images/leopard.jpg);
+}
+
+.elephant {
+    background-image: url(./images/elephant.jpg);
+}
+
+.bear {
+    background-image: url(./images/bear.jpg);
+}
+
+.eagle {
+    background-image: url(./images/eagle\ \(2\).jpg);
+}
+
+.sparow {
+    background-image: url(./images/sparow.jpg);
+}
+
+.parrot {
+    background-image: url(./images/parrot.jpg);
+}
+
+.hen {
+    background-image: url(./images/Hen.jpg);
+}
+
+.crow {
+    background-image: url(./images/crow.jpg);
+}
+
+.mascot {
+    position:absolute;
+    top: 70px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    animation: float 3s infinite ease-in-out;
+    cursor: pointer;
+    z-index: 999;  /* makes sure it stays above everything */
+}
+
+.mascot img {
+    width: 120px;
+    height: auto;
+}
+
+.mascot p {
+    font-family: 'Fredoka', sans-serif;
+    background: white;
+    border-radius: 12px;
+    padding: 8px 14px;
+    margin-left: 8px;
+    font-size: 1.2rem;
+    color: #6A0DAD;
+    border: 3px solid #FF7A00;
+}
+@media (max-width: 600px) {
+  .mascot img { width: 130px; }
+  .mascot p { font-size: 1rem; }
+}
+
+/* floating animation */
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
