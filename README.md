@@ -83,11 +83,7 @@ Built using **HTML, CSS, and JavaScript**, this project plays the corresponding 
 
 ---
 
-## 📸 Screenshots (Optional)
 
-_Add screenshots or screen recordings here to showcase your project._
-
----
 
 ## 📜 License
 
