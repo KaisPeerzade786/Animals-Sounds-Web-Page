@@ -73,5 +73,43 @@ Built using **HTML, CSS, and JavaScript**, this project plays the corresponding 
 ├── eagle.mp3
 ├── sparrow.mp3
 ├── parrot.mp3
+
+## 🚀 How to Run
+
+1. Clone or download this repository.  
+2. Make sure the file structure matches the one shown above.  
+3. Open `index.html` in your browser.  
+4. Click any animal to hear its sound! 🐯🐘🐦
+
+---
+
+## 📸 Screenshots (Optional)
+
+_Add screenshots or screen recordings here to showcase your project._
+
+---
+
+## 📜 License
+
+This project is open source and available under the **MIT License**.
+
+---
+
+## ✨ Author
+
+**Kais Peerzade**  
+📍 Pune, India  
+💬 “Made with ❤️ and curiosity to make learning fun!”
+
+---
+🔮 Future Add-ons:
+
+🐕 Separate interactive pages for Animals, Birds, Insects, and Reptiles
+
+🎮 Fun mini learning games to keep users engaged
+
+📚 “Learn Mode” with facts and quiz sections for each category
+
+🌍 A unified Kids Learning Hub website for all content
 ├── hen.mp3
 └── crow.mp3
